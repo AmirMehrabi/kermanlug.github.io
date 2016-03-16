@@ -3,7 +3,7 @@ KLUG Website
 
 This is contents holder repo for [klug.ir](http://klug.ir/) that is a static web page hosted by [Github Pages](http://pages.github.com/).
 
-![<Woops, Screenshot of KLUG website has not been loaded here>](https://raw.githubusercontent.com/kermanlug/kermanlug.github.io/master/img/demo.png)
+![<Woops, Screenshot of KLUG website has not been loaded here>](https://clbin.com/AZaetZ.png)
 
 
 ### About Kerman Lug (_KLUG_)
