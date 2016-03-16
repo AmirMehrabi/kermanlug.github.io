@@ -20,8 +20,10 @@ h3,
 h4,
 h5,
 h6,
-label {
+label
+input {
     color: #34495e;
+    font-family: 'vazir';
 }
 
 .pure-img-responsive {
@@ -64,6 +66,7 @@ label {
     font-size: 100%;
     width: 100%;
     margin-bottom: 1em;
+    font-family: 'vazir';
 }
 
 /*
@@ -75,6 +78,7 @@ label {
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
+    font-family: 'vazir';
 }
 
 a.pure-button-primary {
