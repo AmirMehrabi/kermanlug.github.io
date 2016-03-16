@@ -59,6 +59,19 @@ body {
     font-family: 'vazir', 'Droid Arabic Naskh', 'pfont';
 }
 
+.home-menu a, .content-subhead, h1, h2, h3, h4, h5, h6, label, p {
+    color: white;
+    font-family: 'vazir', 'Droid Arabic Naskh', 'Ubuntu';
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.content-head {
+    letter-spacing: 0em;
+}
+
 .splash-container, .ribbon {
     background: #FFEB3B;
 }
@@ -79,19 +92,6 @@ body {
     background-color: white;
     color: black;
     margin-top: 10px;
-}
-
-.home-menu a, .content-subhead, h1, h2, h3, h4, h5, h6, label, p {
-    color: white;
-    font-family: 'vazir', 'Droid Arabic Naskh', 'Ubuntu';
-}
-
-p {
-    font-size: 1.25em;
-}
-
-.content-head {
-    letter-spacing: 0em;
 }
 
 /*================= Black Color for Yellow Parts =================*/
