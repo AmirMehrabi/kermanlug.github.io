@@ -149,7 +149,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
 }
 
 #subscribe_submit {
-	background: transparent url(../img/envelope.png) no-repeat center left;
+	background: transparent url(../images/envelope.png) no-repeat center left;
 	color: #fff;
 	font-weight: 100;
 	font-size: 12px;
@@ -167,7 +167,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
 }
 
 #subscribe_submit:hover {
-	background: transparent url(../img/envelope-hover.png) no-repeat top left;
+	background: transparent url(../images/envelope-hover.png) no-repeat top left;
 }
 .error {
     -webkit-transition: all 0.5s ease 0s;
