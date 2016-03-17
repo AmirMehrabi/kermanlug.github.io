@@ -54,9 +54,9 @@ body {
     color: black;
 }
 
-/*================================================================*/
+/*========================= Font Issues ==========================*/
 
-.splash-head {
+.splash-head, .pure-button, .pure-form, .pure-button {
     font-family: 'vazir', 'Droid Arabic Naskh', 'pfont';
 }
 
@@ -72,6 +72,13 @@ p {
 .content-head {
     letter-spacing: 0em;
 }
+
+input {
+    color: #34495e;
+    font-family: 'vazir';
+}
+
+/*================================================================*/
 
 .splash-container, .ribbon {
     background: #FFEB3B;
