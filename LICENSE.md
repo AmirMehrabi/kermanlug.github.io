@@ -2,7 +2,7 @@ Licenses
 ========
 
 ##Contents
-Contents are held under GFDL license.
+Contents are held under [GFDL](https://www.gnu.org/licenses/fdl.html) license.
 
 
 ##klug.ir/BLOG
