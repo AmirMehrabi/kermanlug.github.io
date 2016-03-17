@@ -14,7 +14,7 @@ You can find us online:
 
  * Website: [klug.ir](http://klug.ir/)
  * IRC Channel: [#kermanlug](https://kiwiirc.com/client/irc.freenode.net/#kermanlug) on freenode.net
- * Telegram Group: [Join+](http://telegram.me/kermanlug)
+ * Telegram Group: [Join+](https://telegram.me/joinchat/CYY-5z2LL8rXZhT4EITyJA)
  * Twitter: [@kermanlug](https://twitter.com/kermanlug)
  * Facebook: [Not Yet!]
  * Google+: [Not Yet!]
