@@ -19,5 +19,6 @@ You can find us online:
  * Facebook: [Not Yet!]
  * Google+: [Not Yet!]
  
+Email Address: hello klug ir
+
 Address: Iran, Kerman
-Email: hello ![AT](./img/At-Symbol.png =16x) klug.ir
