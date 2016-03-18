@@ -20,10 +20,8 @@ h3,
 h4,
 h5,
 h6,
-label
-input {
+label {
     color: #34495e;
-    font-family: 'vazir';
 }
 
 .pure-img-responsive {
@@ -66,7 +64,6 @@ input {
     font-size: 100%;
     width: 100%;
     margin-bottom: 1em;
-    font-family: 'vazir';
 }
 
 /*
@@ -74,7 +71,7 @@ input {
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #1f8dd6;
+    background-color: #FFEB3B;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
@@ -83,7 +80,7 @@ input {
 
 a.pure-button-primary {
     background: white;
-    color: #1f8dd6;
+    color: #FFEB3B;
     border-radius: 5px;
     font-size: 120%;
 }
@@ -100,7 +97,7 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu {
-    background: #2d3e50;
+    background: #000;
 }
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -136,7 +133,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    background: #FFEB3B;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -207,7 +204,7 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #1f8dd6;
+    color: #FFEB3B;
 }
     .content-subhead i {
         margin-right: 7px;
@@ -215,7 +212,7 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
+    background: #000;
     color: #aaa;
 }
 
