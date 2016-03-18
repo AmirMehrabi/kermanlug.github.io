@@ -33,6 +33,10 @@ body {
     white-space: normal;
 }
 
+.pure-menu .pure-menu-heading {
+    font-size: 130%;
+}
+
 /*========================= a, a:hover ===========================*/
 .home-menu li a:hover,
 .home-menu li a:focus,
