@@ -1,23 +1,14 @@
- @font-face {
+@font-face {
     font-family: 'vazir';
-    src: url('../fonts/Vazir.ttf');
     src: url('../fonts/Vazir.woff') format('woff'),
-         url('../fonts/Vazir-Bold.ttf') format('truetype'),
-         url('../fonts/Vazir-Bold.ttf') format('truetype'),
          url('../fonts/Vazir-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Droid Arabic Naskh';
-    src: url('../fonts/DroidNaskh-Bold.ttf');
-    font-style: normal;
-}
-
 body {
     direction: rtl;
-    font-family: 'vazir', 'Droid Arabic Naskh', 'Ubuntu';
+    font-family: 'vazir', 'pfont', 'Ubuntu';
 }
 
 /*============================ Header ============================*/
@@ -34,7 +25,11 @@ body {
 }
 
 .pure-menu .pure-menu-heading {
-    font-size: 130%;
+    font-size: 135%;
+}
+
+.pure-menu-list {
+    margin-top: 3px;
 }
 
 /*========================= a, a:hover ===========================*/
@@ -61,12 +56,12 @@ body {
 /*========================= Font Issues ==========================*/
 
 input, .splash-head, .pure-button, .pure-form, .pure-button {
-    font-family: 'vazir', 'Droid Arabic Naskh', 'pfont';
+    font-family: 'vazir', 'pfont', 'Ubuntu';
 }
 
 .home-menu a, .content-subhead, h1, h2, h3, h4, h5, h6, label, p {
     color: white;
-    font-family: 'vazir', 'Droid Arabic Naskh', 'pfont';
+    font-family: 'vazir', 'pfont', 'Ubuntu';
 }
 
 p {
