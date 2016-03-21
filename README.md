@@ -2,6 +2,7 @@ KLUG Website
 ============
 
 This is contents holder repo for [klug.ir](http://klug.ir/) that is a static web page hosted by [Github Pages](http://pages.github.com/).
+If you'd like to add pages/features or make drastic changes, open an issue first.
 
 ![<Woops, Screenshot of KLUG website has not been loaded here>](https://clbin.com/AZaetZ.png)
 
