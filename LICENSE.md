@@ -1,23 +1,19 @@
-Contents License
-================
+Licenses
+========
 
-Contents are held under GFDL license.
- 
-klug.ir/BLOG License
-====================
+## Contents
+Contents are held under [GFDL](https://www.gnu.org/licenses/fdl.html) license.
 
+
+## klug.ir/BLOG
 It's derived from [material-jekyll-theme](https://git.io/vazKh) that is originally an MIT licensed work.
 
 
-Design License!
-===============
-
+## Design
 The design of klug.ir index page is inspired by [Lincoln Lug Website](https://github.com/corenominal/lincoln-lug-website) which is a GPLv2 licensed work.
  
  
-Software License Agreement
-==========================
-
+## Template
 Index template is derived from [purecss.io/layouts/marketing](http://purecss.io/layouts/marketing/) which is originally a free software to use under the [Yahoo! Inc. BSD license](https://github.com/yahoo/pure-site/blob/master/LICENSE.md).
 
 Copyright 2013 Yahoo! Inc. All rights reserved.
@@ -47,7 +43,6 @@ modification, are permitted provided that the following conditions are met:
     (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Videos
-======
 
+## Videos
 Videos used in FAQ page are originally published at [Linux Scoop](http://www.youtube.com/feeds/videos.xml?channel_id=UCNnUnr4gwyNmzx_Bbzvt29g) channel on youtube. They have been redistributed without any change in content at [klug.ir/faq](http://klug.ir/faq.html).

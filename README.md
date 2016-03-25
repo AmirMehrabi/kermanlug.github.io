@@ -3,6 +3,8 @@ KLUG Website
 
 This is contents holder repo for [klug.ir](http://klug.ir/) that is a static web page hosted by [Github Pages](http://pages.github.com/).
 
+If you'd like to add pages/features or make drastic changes, open an issue first.
+
 ![<Woops, Screenshot of KLUG website has not been loaded here>](https://clbin.com/AZaetZ.png)
 
 
@@ -14,7 +16,11 @@ You can find us online:
 
  * Website: [klug.ir](http://klug.ir/)
  * IRC Channel: [#kermanlug](https://kiwiirc.com/client/irc.freenode.net/#kermanlug) on freenode.net
- * Telegram Group: [Join+](http://telegram.me/kermanlug)
+ * Telegram Group: [Join+](https://telegram.me/joinchat/CYY-5z2LL8rXZhT4EITyJA)
  * Twitter: [@kermanlug](https://twitter.com/kermanlug)
  * Facebook: [Not Yet!]
  * Google+: [Not Yet!]
+ 
+Email Address: hello klug ir
+
+Address: Iran, Kerman

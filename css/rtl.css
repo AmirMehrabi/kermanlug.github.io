@@ -1,23 +1,14 @@
- @font-face {
+@font-face {
     font-family: 'vazir';
-    src: url('../fonts/Vazir.ttf');
     src: url('../fonts/Vazir.woff') format('woff'),
-         url('../fonts/Vazir-Bold.ttf') format('truetype'),
-         url('../fonts/Vazir-Bold.ttf') format('truetype'),
          url('../fonts/Vazir-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Droid Arabic Naskh';
-    src: url('../fonts/DroidNaskh-Bold.ttf');
-    font-style: normal;
-}
-
 body {
     direction: rtl;
-    font-family: 'vazir', 'Droid Arabic Naskh', 'Ubuntu';
+    font-family: 'vazir', 'pfont', 'Ubuntu';
 }
 
 /*============================ Header ============================*/
@@ -32,6 +23,15 @@ body {
 .pure-menu-horizontal {
     white-space: normal;
 }
+
+.pure-menu .pure-menu-heading {
+    font-size: 135%;
+}
+
+.pure-menu-list {
+    margin-top: 3px;
+}
+
 /*========================= a, a:hover ===========================*/
 .home-menu li a:hover,
 .home-menu li a:focus,
@@ -53,11 +53,26 @@ body {
     color: black;
 }
 
-/*================================================================*/
+/*========================= Font Issues ==========================*/
 
-.splash-head {
-    font-family: 'vazir', 'Droid Arabic Naskh', 'pfont';
+input, .splash-head, .pure-button, .pure-form, .pure-button {
+    font-family: 'vazir', 'pfont', 'Ubuntu';
 }
+
+.home-menu a, .content-subhead, h1, h2, h3, h4, h5, h6, label, p {
+    color: white;
+    font-family: 'vazir', 'pfont', 'Ubuntu';
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.content-head {
+    letter-spacing: 0em;
+}
+
+/*================================================================*/
 
 .splash-container, .ribbon {
     background: #FFEB3B;
@@ -81,19 +96,6 @@ body {
     margin-top: 10px;
 }
 
-.home-menu a, .content-subhead, h1, h2, h3, h4, h5, h6, label, p {
-    color: white;
-    font-family: 'vazir', 'Droid Arabic Naskh', 'Ubuntu';
-}
-
-p {
-    font-size: 1.25em;
-}
-
-.content-head {
-    letter-spacing: 0em;
-}
-
 /*================= Black Color for Yellow Parts =================*/
 
 .content-head-ribbon {
@@ -101,31 +103,27 @@ p {
     padding: 5px;
 }
 
-.vazir {
-    font-family: 'vazir !IMPORTANT';
-}
-
 /*======================== SUBSCRIBE FORM ========================*/
 input[type="text"], input[type="email"], input[type="password"], textarea {
-	background-color: white;
-	border: 2px solid gray;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-	color: #000000;
-	font-family: inherit;
-	font-size: 14px;
-	padding: 9px 10px;
-	margin: 0px 0px 8px 0px;
-	-webkit-transition: all 0.7s ease 0s;
-	-moz-transition: all 0.7s ease 0s;
-	-ms-transition: all 0.7s ease 0s;
-	-o-transition: all 0.7s ease 0s;
-	transition: all 0.7s ease 0s;
-	width: 100%;
+    background-color: white;
+    border: 2px solid gray;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #000000;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 9px 10px;
+    margin: 0px 0px 8px 0px;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -ms-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    width: 100%;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
-	background-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,1);
 }
 
 .subscribe-width {
@@ -134,40 +132,40 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .subscribe {
-	position: relative;
-	height: auto;
-	margin: 5px 0px 0px 0px;
-	width: 100%;
+    position: relative;
+    height: auto;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
 }
 
 input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholder, input:-ms-input-placeholder {
-	color: #999;
+    color: #999;
 }
 
 .subscribe  input[type="text"] {
-	padding: 9px 50px 9px 15px;
+    padding: 9px 50px 9px 15px;
 }
 
 #subscribe_submit {
-	background: transparent url(../images/envelope.png) no-repeat center left;
-	color: #fff;
-	font-weight: 100;
-	font-size: 12px;
-	border: none;
-	padding: 1px 15px 4px;
-	outline: none;
-	position: absolute;
-	left: 11px;
-	top: 9px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    background: transparent url(../images/envelope.png) no-repeat center left;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+    border: none;
+    padding: 1px 15px 4px;
+    outline: none;
+    position: absolute;
+    left: 11px;
+    top: 9px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #subscribe_submit:hover {
-	background: transparent url(../images/envelope-hover.png) no-repeat top left;
+    background: transparent url(../images/envelope-hover.png) no-repeat top left;
 }
 .error {
     -webkit-transition: all 0.5s ease 0s;
@@ -204,15 +202,15 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
 
 /*========================= Google Maps =========================*/
 .google-maps {
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
 }
 .google-maps iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
